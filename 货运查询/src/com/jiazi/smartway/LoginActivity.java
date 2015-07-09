@@ -38,7 +38,6 @@ public class LoginActivity extends Activity implements OnClickListener ,OnFocusC
 
 	private PreUtil preUtil;
 
-	private Intent intent;
 	private Context context;
 
 	private JsonAsyncTask jsonTask;
