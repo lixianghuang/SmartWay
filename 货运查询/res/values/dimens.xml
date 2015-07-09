@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="text_normal_size">12.0sp</dimen>
+    <dimen name="tv_title_size">15.0sp</dimen>
+    <dimen name="et_trailer_edit_size">18.0sp</dimen>
+    <dimen name="btn_commit_size">15.0sp</dimen>
+
+</resources>

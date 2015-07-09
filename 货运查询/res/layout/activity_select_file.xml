@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_bg" >
+
+        <ImageButton
+            android:id="@+id/ibtn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_title_pressed_selector"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/btn_arrow_left_white" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="选择文件"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_title_size" />
+
+        <ImageButton
+            android:id="@+id/ibtn_more_fun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_title_pressed_selector"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/btn_more_fun" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_path_go_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/lightgray"
+        android:drawableRight="@drawable/btn_path_go_up"
+        android:gravity="center_vertical"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="返回上一级目录" />
+
+    <ListView
+        android:id="@+id/lv_file_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/activity_bg"
+        android:divider="#ADD0E3"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/btn_content_pressed_selector"
+        android:padding="10dp"
+        android:scrollbarStyle="outsideOverlay" />
+
+</LinearLayout>

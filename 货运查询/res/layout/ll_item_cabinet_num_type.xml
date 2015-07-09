@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="1dp"
+    android:background="@color/activity_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_cabinet_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="MAGU5744714" />
+
+    <TextView
+        android:id="@+id/tv_cabinet_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/tv_cabinet_type_shape"
+        android:gravity="center_horizontal"
+        android:paddingLeft="3dp"
+        android:paddingRight="3dp"
+        android:text="40HQ"
+        android:textColor="@color/orange" />
+
+</LinearLayout>

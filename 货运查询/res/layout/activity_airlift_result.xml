@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_bg" >
+
+        <ImageButton
+            android:id="@+id/ibtn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_title_pressed_selector"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/btn_arrow_left_white" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="SHANGHAI"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_title_size" />
+
+        <ImageButton
+            android:id="@+id/ibtn_more_fun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_title_pressed_selector"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/btn_more_fun" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ll_border_shape"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/cb_airways"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/cb_down_selector"
+            android:drawableTop="@drawable/cb_up_selector"
+            android:gravity="center_horizontal"
+            android:text="航空公司" />
+
+        <CheckBox
+            android:id="@+id/cb_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableBottom="@drawable/cb_down_selector"
+            android:drawableTop="@drawable/cb_up_selector"
+            android:gravity="center_horizontal"
+            android:text="价格" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_query_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/ll_border_shape"
+        android:divider="@android:drawable/divider_horizontal_textfield"
+        android:dividerHeight="1dp"
+        android:padding="3dp"
+        android:scrollbars="none" >
+    </ListView>
+
+</LinearLayout>

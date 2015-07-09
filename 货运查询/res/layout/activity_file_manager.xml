@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/title_bg"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/ibtn_go_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_title_pressed_selector"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:src="@drawable/btn_arrow_left_white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="附件管理"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/tv_title_size" />
+
+        <TextView
+            android:id="@+id/tv_upload_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:padding="5dp"
+            android:text="上传"
+            android:textColor="@drawable/tv_white_lightblue_textcolor_selector" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lv_upload_file"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#ADD0E3"
+        android:dividerHeight="1px"
+        android:padding="5dp" />
+
+</LinearLayout>

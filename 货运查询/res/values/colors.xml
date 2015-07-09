@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="bar_bg">#121212</color>
+    <color name="green">#00ff00</color>
+    <color name="gray">#686868</color>
+    <color name="blackgreen">#008000</color>
+    <color name="blue">#0000ff</color>
+    <color name="lightwhite">#eee</color>
+    <color name="lightblue">#06cdef</color>
+    <color name="white">#ffffff</color>
+    <color name="activity_bg">#d1ddf3</color>
+    <color name="title_bg">#202020</color>
+    <color name="orange">#f27835</color>
+    <color name="yellow">#ffff00</color>
+    <color name="tv_start_port_bg">#3F67BF</color>
+    <color name="et_content_bg">#dfe8f9</color>
+    <color name="lightgray">#dcdcdc</color>
+
+</resources>

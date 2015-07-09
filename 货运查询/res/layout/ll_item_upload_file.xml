@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/tv_upload_file"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/et_bg_selector"
+        android:drawableRight="@drawable/btn_arrow_down_blue"
+        android:gravity="center_vertical"
+        android:hint="请选择文件"
+        android:paddingLeft="3dp"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/btn_upload_file_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_content_pressed_selector"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:src="@drawable/btn_delete" />
+
+</LinearLayout>

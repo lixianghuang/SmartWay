@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="about_title_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+
+    <style name="edittext_style">
+        <item name="android:padding">3dp</item>
+        <item name="android:background">@drawable/et_bg_selector</item>
+    </style>
+
+    <style name="tab_style">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingTop">8dip</item>
+        <item name="android:paddingBottom">4dip</item>
+        <item name="android:background">@drawable/tab_bg_selector</item>
+        <item name="android:textColor">@drawable/tab_textcolor_selector</item>
+        <item name="android:button">@null</item>
+    </style>
+
+</resources>

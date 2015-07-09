@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmartWay</string>
+
+    <string-array name="query_type">
+        <item>整箱运价</item>
+        <item>空运运价</item>
+    </string-array>
+    <string-array name="user_type">
+        <item>集装箱拖车公司</item>
+        <item>SMARTWAY</item>
+        <item>客户</item>
+        <item>报关行</item>
+    </string-array>
+    <string-array name="weeks">
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+        <item>周日</item>
+    </string-array>
+    <string-array name="cabinet_type">
+        <item>20GP</item>
+        <item>40GP</item>
+        <item>40HC</item>
+    </string-array>
+    <string-array name="driver_phone">
+        <item>13410203301</item>
+        <item>13410203302</item>
+        <item>13410203303</item>
+    </string-array>
+
+</resources>
