@@ -33,6 +33,7 @@ import android.widget.Toast;
 public class MainActivity extends FragmentActivity implements OnClickListener {
 
 	private Context context;
+	private Intent intent;
 
 	private PreUtil preUtil;
 
